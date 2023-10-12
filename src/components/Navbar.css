@@ -1,0 +1,10 @@
+nav {
+    background-color: #303030;
+    display: flex;
+    gap: 4px;
+    padding: 1rem;
+}
+
+nav > * {
+    margin: 0 5vw;
+}
