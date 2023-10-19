@@ -1,0 +1,14 @@
+input[type="text"] {
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    background-color: var(--secondary-background-color);
+    transition: border-color 0.25s;
+    outline: none;
+    color: var(--text-color);
+}
+
+input[type="text"]:hover {
+    border-color: var(--border-hover-color);
+}
