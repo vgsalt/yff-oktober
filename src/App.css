@@ -31,3 +31,8 @@ main > * {
   margin: 0 6vw;
   margin-top: 1rem;
 }
+
+.loading {
+  display: flex;
+  gap: 4px;
+}

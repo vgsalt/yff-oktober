@@ -12,3 +12,10 @@ input[type="text"] {
 input[type="text"]:hover {
     border-color: var(--border-hover-color);
 }
+
+.results {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}

@@ -1,11 +1,7 @@
 import "./Button.css";
 
-export default function Button({action, name}) {
-    console.log(action)
-
+export default function Button({onClick, name}) {
     return ( 
-        <>
-            <button class="button" onClick={action}>{name}</button>
-        </>
+        <button class="button" type="button" onClick={onClick}>{name}</button>
     )
 }
