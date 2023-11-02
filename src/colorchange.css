@@ -1,0 +1,15 @@
+.sunnyWeather nav {
+    background-color: rgb(247, 185, 71, 0.5);
+}
+
+.sunnyWeather {
+    background-color: rgb(247, 185, 71, 0.2);
+}
+
+.coldWeather nav {
+    background-color: rgb(65, 65, 212, 0.5);
+}
+
+.coldWeather {
+    background-color: rgb(65, 65, 212, 0.2);
+}

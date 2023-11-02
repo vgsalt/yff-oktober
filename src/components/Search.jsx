@@ -19,7 +19,7 @@ export default function Search() {
                 <For each={responseJson()}>{(location, i) =>
                     <a href="#" onClick={() => {
                             console.log(`Trykket på ${location.display_name} (${location.lat} / ${location.lon})`)
-                            setLocation([location.lat, location.lon]);
+                            setLocation([location.lat, location.lon, location.name]);
                             setViewState(2);
                         }}>
                         {location.display_name}
